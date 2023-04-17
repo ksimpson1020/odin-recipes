@@ -4,30 +4,31 @@
     font-family: "Verdana", sans-serif;
 }
 
+h1 {
+    text-align: left;
+    font-stretch: expanded;
+    font-variant: small-caps;
+}
+
+h1 {
+    text-align: left;
+    font-stretch: expanded;
+    font-variant: small-caps;
+}
+
+
 a {
     text-decoration: underline;
 }
 
-.nav-main {
-    display: inline;
-}
 
 ul.nav-main {
-    text-align: left;
+    list-style-type: none;
+    padding: 0;
 }
 
 li.nav-item {
     display: inline;
-    font-size: 19px;
-    float: left;
-    padding: 14px 14px;
-}
-
-.site-title {
-    text-align: left;
-    font-stretch: expanded;
-    font-variant: small-caps;
-    padding-left: 14px;
 }
 
 
