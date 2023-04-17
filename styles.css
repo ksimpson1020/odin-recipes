@@ -1,3 +1,4 @@
+/* Global */
 * {
     color: #CC0000;
     font-weight: bold; 
@@ -10,18 +11,11 @@ h1 {
     font-variant: small-caps;
 }
 
-h1 {
-    text-align: left;
-    font-stretch: expanded;
-    font-variant: small-caps;
-}
-
-
 a {
     text-decoration: underline;
 }
 
-
+/* Navigation */
 ul.nav-main {
     list-style-type: none;
     padding: 0;
@@ -29,6 +23,21 @@ ul.nav-main {
 
 li.nav-item {
     display: inline;
+}
+
+/* Lavender */
+h1.lavender {
+    text-align: left;
+    font-stretch: ultra-expanded;
+    font-kerning: auto;
+    font-variant: small-caps;
+
+    font-family:'Courier New', Courier, monospace;
+}
+
+.lavender {
+    background-color: #2A2F4F;
+    color: #FDE2F3;
 }
 
 
