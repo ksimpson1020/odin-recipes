@@ -12,15 +12,22 @@ a {
     display: inline;
 }
 
-li.nav-item {
-text-align: left;
-    display: inline;
-    font-size: 19px;
+ul.nav-main {
+    text-align: left;
 }
 
-h1 {
+li.nav-item {
+    display: inline;
+    font-size: 19px;
+    float: left;
+    padding: 14px 14px;
+}
+
+.site-title {
     text-align: left;
     font-stretch: expanded;
     font-variant: small-caps;
+    padding-left: 14px;
 }
+
 
