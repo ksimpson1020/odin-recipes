@@ -1,11 +1,26 @@
 * {
     color: #CC0000;
-    font-size: 19px;
     font-weight: bold; 
     font-family: "Verdana", sans-serif;
 }
 
 a {
     text-decoration: underline;
+}
+
+.nav-main {
+    display: inline;
+}
+
+li.nav-item {
+text-align: left;
+    display: inline;
+    font-size: 19px;
+}
+
+h1 {
+    text-align: left;
+    font-stretch: expanded;
+    font-variant: small-caps;
 }
 
